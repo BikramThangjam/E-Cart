@@ -1,0 +1,16 @@
+.icon-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navbar-items{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.set-mb{
+    margin-bottom: 100px;
+}
+
