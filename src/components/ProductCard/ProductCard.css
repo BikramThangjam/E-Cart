@@ -22,9 +22,11 @@
     transform: scale(1.03);
     color: black;
 }
-.card-img{
+.card-main .card-img-link{
     width: 50%;
     margin: auto;
+}
+.card-img{
     height: 200px;
 }
 .card-body{
