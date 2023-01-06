@@ -1,0 +1,11 @@
+.s-alert{
+    position: fixed;
+    bottom: 90px;
+    left: 20px;
+    z-index: 1;
+    width: 170px;
+    height: 40px;
+}
+.alert svg{
+    width: 15px;
+}

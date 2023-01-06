@@ -29,10 +29,10 @@ const Header = () => {
 
                             </Link>
                         </li>
-                        <li className="nav-item">
-                            <Link className="nav-link active" aria-current="page" to="/register">Register</Link>
+                        <li className="nav-item lead">
+                            <Link className="nav-link active " aria-current="page" to="/register">Register</Link>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item lead">
                             <Link className="nav-link active" to="/login">Login</Link>
                         </li>
                     </ul>

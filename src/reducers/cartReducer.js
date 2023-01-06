@@ -5,7 +5,7 @@ import {createSlice} from "@reduxjs/toolkit";
 const initialState = {
     items: [],
     totalQuantity: 0,
-    totalPrice: 0
+    totalPrice: 0,
 }
 
 //2. Create the reducer.
@@ -27,7 +27,7 @@ const cartSlice = createSlice({
                 const tempProduct = {...action.payload, quantity: 1};
                 state.items.push(tempProduct); 
             }
-                       
+                   
         },
 
         decreaseCart: (state,action)=>{
@@ -68,7 +68,7 @@ const cartSlice = createSlice({
             });
 
             state.totalQuantity = quantity;
-            state.totalPrice = parseFloat(price.toFixed(2));;
+            state.totalPrice = parseFloat(price.toFixed(2));
         }
     }
 });

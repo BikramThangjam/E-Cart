@@ -1,0 +1,32 @@
+.p-img{
+    min-width: 250px;
+}
+
+
+  @media screen and (max-device-width: 360px) { 
+    /* STYLES HERE */
+    .product-container{
+        width: 100% !important;
+        padding: 15px;
+    }
+    .p-img {
+        width: 100% !important;
+        height: auto !important;
+      }
+      .add-btn{
+        margin-left: 0 !important;
+      }
+}
+
+@media screen and (min-device-width: 361px) and (max-device-width: 768px) { 
+    /* STYLES HERE */
+    img {
+        width:60vw;
+        height: auto;
+      }
+      .add-btn{
+        margin-left: 0px !important;
+      }
+}
+
+  

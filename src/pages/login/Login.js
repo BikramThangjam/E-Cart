@@ -1,6 +1,4 @@
 import { useState } from "react";
-import Footer from "../../components/Shared/Footer/Footer";
-import Header from "../../components/Shared/Header/Header";
 import "./Login.css";
 
 function Login() {
@@ -13,7 +11,6 @@ function Login() {
 
   return (
     <>
-      <Header/>
       <div className="container-fluid col-md-6 p-5 login-container">
         <div className="mb-3">
           <label htmlFor="examplehtmlFormControlInput1" className="form-label">
@@ -47,7 +44,6 @@ function Login() {
         </div>
         <input className="btn btn-primary " value="Login" type="submit" onClick={handleLoginSubmit} />
       </div>
-      <Footer/>
     </>
 
   );

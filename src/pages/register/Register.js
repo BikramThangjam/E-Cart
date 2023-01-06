@@ -1,8 +1,6 @@
 import { useState } from "react";
 import "./Register.css";
 import {useNavigate} from "react-router-dom";
-import Header from "../../components/Shared/Header/Header";
-import Footer from "../../components/Shared/Footer/Footer";
 
 function Register() {
     
@@ -35,7 +33,6 @@ function Register() {
 
   return (
     <>
-      <Header/>
       <div className="container-fluid col-md-6 p-5">
         <div className="mb-3">
           <label htmlFor="examplehtmlFormControlInput1" className="htmlForm-label">
@@ -120,7 +117,6 @@ function Register() {
           type="submit"
         />
       </div>
-      <Footer/>
     </>
     
   );
