@@ -7,8 +7,8 @@ const Header = () => {
     const quantity = useSelector(cartSelector).items.length;
     //console.log(cartItemCount);
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark" >
-            <div className="container-fluid">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark shadow" >
+            <div className="container-fluid ">
                 <Link className="navbar-brand px-4" to="/">
                     <h2 >E-Cart</h2>
                 </Link>

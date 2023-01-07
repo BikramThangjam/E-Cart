@@ -1,3 +1,5 @@
+
+import "../Shared/Footer/Footer.css";
 import "./ProductDetail.css";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";

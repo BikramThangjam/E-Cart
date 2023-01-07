@@ -46,11 +46,11 @@ const Home = () => {
 
     const Loading = ()=>{
         return (
-            <div className="position-absolute start-50">
+            <div className="loading ">
                 <div class="spinner-grow text-danger" role="status">
                     <span class="visually-hidden">Loading...</span>
                 </div>
-                <div class="spinner-grow text-warning" role="status">
+                <div class="spinner-grow text-warning mx-2" role="status">
                     <span class="visually-hidden">Loading...</span>
                 </div>
                 <div class="spinner-grow text-info" role="status">
@@ -80,7 +80,7 @@ const Home = () => {
                 {
                     error ? (<h2 className="mt-3 text-center display-6">No Products to Show!</h2>)
                         : (
-                            <div className="position-relative">
+                            <div className="position-relative vh-100">
                                 {loading ? <Loading /> : <ShowProducts/>}
                             </div>                  
                         )
