@@ -1,8 +1,8 @@
 .s-alert{
     position: fixed;
-    bottom: 90px;
-    left: 20px;
-    z-index: 1;
+    bottom: 10px;
+    left: 5px;
+    z-index: 3;
     width: 170px;
     height: 40px;
 }

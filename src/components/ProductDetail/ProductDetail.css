@@ -2,6 +2,34 @@
     min-width: 250px;
 }
 
+.cart-btn{
+  font-size: 16px;  
+  background-color: white;  
+  color: #272525;
+  border-radius: 5px;
+  border:1px solid black;
+  cursor: pointer;
+  letter-spacing: 1px;
+  padding: 8px 10px;
+  transition: all 0.2s;
+  text-decoration: none;
+}
+
+.addto:hover{
+  background-color: #501c64;
+  color: white;
+  border: 1px solid white;
+}
+
+.goto{
+  background-color: #501c64;
+  color: white;
+  border: none;
+}
+.goto:hover{
+  background-color:#5c0368;
+  color: white;
+}
 
   @media screen and (max-device-width: 360px) { 
     /* STYLES HERE */
