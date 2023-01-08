@@ -73,14 +73,14 @@ const Home = () => {
     }
 
     return (
-            <div className="container-fluid mt-3 set-mb px-5 py-2 position-relative ">
+            <div className="container-fluid set-mb mt-3 px-5 py-2 position-relative">
                 {
                     isCartAdded && <CartAlert/>
                 }
                 {
-                    error ? (<h2 className="mt-3 text-center display-6">No Products to Show!</h2>)
+                    error ? (<h2 className="mt-3  text-center display-6">No Products to Show!</h2>)
                         : (
-                            <div className="position-relative vh-100">
+                            <div className="position-relative">
                                 {loading ? <Loading /> : <ShowProducts/>}
                             </div>                  
                         )

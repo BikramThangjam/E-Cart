@@ -16,8 +16,8 @@
 
 .loading {
     position: absolute;
-    top: 15%;
-    left: 43%;
+    top: 200px;
+    left: 42%;
 }
 
 @media only screen and (max-width:450px){
